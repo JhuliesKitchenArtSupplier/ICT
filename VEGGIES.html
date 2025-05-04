@@ -32,9 +32,51 @@ li {
 display: inline;
 }
 h1{
+  text-align: center;
   font-style: BOLD;
   font-size: 400%;
 }
+
+
+div.gallery {
+  margin: 3%;
+  border: 1px solid #ccc;
+  float:inline-start;
+  width: 180px;
+}
+
+div img:hover {
+  filter: grayscale(1);
+  transform: scale(1.03);
+
+  border: 1px solid;
+}
+
+div img {
+  border: 2px solid;
+  border-radius: 13px;
+  box-shadow: 4px 7px 0px;
+  margin: 10px;
+  transition: 400ms;
+  
+
+
+  float: inline-end;
+  width: 400px;
+  height: 300px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 
 
 </style>
@@ -48,8 +90,16 @@ h1{
       <li><a href="https://moxienami.github.io/ICT/about-us.html">About Us</a></li>
       </ul>
      
-    
-    <H1>VEGGIES</H1>
+    <hr>
+    <H1> VEGGIES</H1>
+    <hr>
+    <DIV>
+      <img src="10.jpg" alt="...">
+      <img src="10.jpg" alt="...">
+      <img src="10.jpg" alt="...">
+      <img src="10.jpg" alt="...">
+      
+      </DIV>
     
     
     
